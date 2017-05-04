@@ -16,7 +16,7 @@ var Nav = React.createClass ({
       <div className="top-bar">
         <div className="top-bar-left">
           <ul className="menu">
-            <li className="menu-text">React Weather App</li>
+            <li className="menu-text">Ứng dụng thời tiết</li>
             <li>
               <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Get Weather</IndexLink>
             </li>
@@ -32,10 +32,10 @@ var Nav = React.createClass ({
           <form onSubmit={this.onSearch}>
             <ul className="menu">
               <li>
-                <input type="search" ref="search" placeholder="Search weather by city"></input>
+                <input type="search" ref="search" placeholder="Tìm kiếm theo thành phố"></input>
               </li>
               <li>
-                <input type="submit" className="button" value="Get weather"></input>
+                <input type="submit" className="button" value="Tìm"></input>
               </li>
             </ul>
           </form>

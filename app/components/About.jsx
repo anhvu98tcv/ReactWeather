@@ -5,13 +5,13 @@ var About = (props) => {
     <div>
       <h1 className="text-center page-title">About</h1>
       <p>Đây là app của VuDz</p>
-      <p>Here some of the tool i used</p>
+      <p>Một vài tool sử dụng</p>
       <ul>
         <li>
-          <a href="https://facebook.github.io/react">React</a> This was the Javascript framework use
+          <a href="https://facebook.github.io/react">React</a> Javascript framework
         </li>
         <li>
-          <a href="http://openweathermap.org">Open Weather Map</a> Use for search city and temperature
+          <a href="http://openweathermap.org">Open Weather Map</a> sử dụng để tìm nhiệt độ
         </li>
       </ul>
     </div>

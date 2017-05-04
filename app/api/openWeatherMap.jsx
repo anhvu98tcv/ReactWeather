@@ -14,7 +14,7 @@ module.exports = {
         return res.data.main.temp;
       }
     }, function (res) {
-      throw new Error("Unable to fetch weather for that location");
+      throw new Error("Địa điểm không tồn tại ?");
     });
   }
 }

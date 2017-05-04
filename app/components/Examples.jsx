@@ -4,14 +4,14 @@ var {Link} = require('react-router');
 var Examples = (props) => {
   return (
     <div>
-      <h1 className="text-center page-title">Examples</h1>
-      <p>Here is a few example locations to try out</p>
+      <h1 className="text-center page-title">VÍ DỤ</h1>
+      <p>Một vài ví dụ :</p>
       <ol>
         <li>
-          <Link to='/?location=Philadenphia'>Philadenphia , PA</Link>
+          <Link to='/?location=HaNoi'>Ha Noi , VN</Link>
         </li>
         <li>
-          <Link to="/?location=Rio">Rio, Brazil</Link>
+          <Link to="/?location=Hue">Hue, VN</Link>
         </li>
       </ol>
     </div>
